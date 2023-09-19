@@ -15,3 +15,29 @@ print(my_bool_variable)
 
 # Concatenacion de variables en un print
 print(my_string_variable, my_int_to_str_variable, my_bool_variable)
+print("Este es el valor de: ", my_bool_variable)
+
+# Algunas funciones del sistema
+print(len(my_int_to_str_variable))
+
+# Variables en una sola linea. ¡Cuidado con abusar de esta sintasis!
+name, surname, alias, age = "Tulio", "Cardenas DelAguila", "Kory_tcd", 55
+print("Me llamo", name, surname, ". Mi edad es:", age, ". Y mi alias es :", alias)
+
+# Inputs
+
+name = input ("¿Cual es tu nombre?")
+age = input ("¿Cuantos años tienes ?")
+
+print(name)
+print(age) 
+
+# Cambiamos su tipo
+name = 35
+age = "Tulio CD"
+print(name)
+print(age)
+
+address: str =  "Mi direccion"
+address = 32
+print(type(address))
